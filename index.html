@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANTE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="cabecera" >
+        <div style="width:75%; margin:auto;">
+            <div style="float: left;">
+                RESTAURANTE RUSTICA
+            </div>
+            <div style="float: right; padding:10px;">
+                atencionrustica@gmail.com
+            </div>
+            <div style="text-align: center;">
+                <img width="100%" src="https://firebasestorage.googleapis.com/v0/b/proyecto-de-restaurante-3b647.appspot.com/o/banner.jpg?alt=media&token=1ec96c8b-f960-445e-930a-0bc4461c2187" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="cuerpo">
+        <div id="barra">
+            <p style="text-align: center; margin-bottom: 30px;">Menu</p>
+            <ul>
+                <li><a href="https://firebasestorage.googleapis.com/v0/b/proyecto-de-restaurante-3b647.appspot.com/o/lomo%20saltado.jpg?alt=media&token=10642267-58ab-4b3b-b3b9-587931695767" onclick="mostrarPag('pagina1')">Lomo saltado</a></li>
+                <li><a href="https://firebasestorage.googleapis.com/v0/b/proyecto-de-restaurante-3b647.appspot.com/o/causa.jpeg?alt=media&token=001afe50-911b-432e-8758-712902c646c8" onclick="mostrarPag('pagina2')">Causa</a></li>
+                <li><a href="https://firebasestorage.googleapis.com/v0/b/proyecto-de-restaurante-3b647.appspot.com/o/ceviche.jpeg?alt=media&token=474688e6-b22d-492a-a959-abaaa3d3f6a1" onclick="mostrarPag('pagina3')">Ceviche</a></li>
+                <li><a href="https://firebasestorage.googleapis.com/v0/b/proyecto-de-restaurante-3b647.appspot.com/o/seco%20de%20carne.jpeg?alt=media&token=60167a09-ddbc-4ca9-ae39-d96fb64b09cc" onclick="mostrarPag('pagina4')">Seco de carne</a></li>
+                <li><a href="https://firebasestorage.googleapis.com/v0/b/proyecto-de-restaurante-3b647.appspot.com/o/aji-de-gallina.jpg?alt=media&token=ed0ab6fb-8b06-4f33-8cd9-f8fc83f7c1a2" onclick="mostrarPag('pagina5')">Aji de pollo</a></li>
+                <li><a href="" onclick="cerrar();">Cerrar sesion</a></li>
+            </ul> 
+        </div>
+        <div id="contenido">
+            <div id="pagina1" class="pag active">
+                <h1>Lomo saltado</h1>
+                <p>cantidad</p>
+                <img width="100%" src="https://firebasestorage.googleapis.com/v0/b/proyecto-de-restaurante-3b647.appspot.com/o/lomo%20saltado.jpg?alt=media&token=10642267-58ab-4b3b-b3b9-587931695767" alt="">
+
+            </div>
+            <div id="pagina2" class="pag">
+                <h1>Causa</h1>
+                <p>cantidad</p>
+                <img width="100%" src="https://firebasestorage.googleapis.com/v0/b/proyecto-de-restaurante-3b647.appspot.com/o/lomo%20saltado.jpg?alt=media&token=10642267-58ab-4b3b-b3b9-587931695767" alt="">
+
+            </div>
+
+            <div id="pagina3" class="pag">
+                <h1>Ceviche</h1>
+                <p>cantidad</p>
+                <img width="100%" src="https://firebasestorage.googleapis.com/v0/b/proyecto-de-restaurante-3b647.appspot.com/o/lomo%20saltado.jpg?alt=media&token=10642267-58ab-4b3b-b3b9-587931695767" alt="">
+            </div>
+    </div>
+      
+</body>
+
+</html>
